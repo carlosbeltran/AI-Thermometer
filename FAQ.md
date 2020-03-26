@@ -14,7 +14,7 @@ The current code doesn't include yet machine learning. However, this is a very i
 
 ## Did OpenPose work out of the box on the thermal images?
 
-Well, not really. We had to tweak a little the images and still OpenPose is not performing as well as in RGB images. Most probably, for exploiting all the potential of OpenPose, it will be necessary to fine-tune. May be the guys from CMU are interested in updating their Panoptic Studio with thermal cameras?
+Well, not really. We had to pre-process images in a way OpenPose could provide an output. 
 
 ## Any measure of how accurate the resulting temperatures are?
 
